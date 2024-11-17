@@ -1,0 +1,169 @@
+/* Basic navbar styling */
+
+body {
+  box-sizing: border-box;
+}
+.navbar {
+  padding: 1rem 0;
+}
+
+/* Logo styling */
+.navbar-brand img {
+  width: 187px;
+  height: 40px;
+}
+
+/* Navbar link styling */
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #5e3bee;
+}
+
+/* Contact button styling */
+.contact-button {
+  color: #5e3bee; /* Primary color for text */
+  border: 1px solid #007bff; /* Primary color border */
+  background-color: white; /* White background */
+  transition: all 0.3s;
+}
+
+/* Hover effect */
+.contact-button:hover {
+  color: white;
+  background-color: #007bff; /* Primary color background */
+  border-color: #007bff;
+}
+
+/* header-section */
+
+.header-section {
+  background-color: #ffffff;
+  height: 600px;
+}
+
+.content-section h1 {
+  font-weight: bold;
+}
+.product {
+  color: #5e3bee;
+}
+
+.header-btn {
+  background-color: #5e3bee;
+  color: #fff;
+}
+.header-btn:hover {
+  background-color: #6f5cba;
+  color: #fff;
+}
+
+/* card-section */
+
+.card-body {
+  background-color: #f5fcff;
+}
+.card-body .chain-icon img {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+}
+
+/* card-2 section */
+.porfolio-section {
+  margin-top: 500px;
+}
+.porfolio-section .port-heading {
+  font-weight: bold;
+}
+.card-custom {
+  margin-top: 20px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.card-custom:hover {
+  transform: translateY(-5px);
+}
+.icon-button {
+  color: #007bff;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+.icon-button:hover {
+  color: #0056b3;
+}
+
+
+/* Testimonial area */
+
+.testimonial-main{
+  background-color: #F5FCFF;
+}
+
+.testimonial-card {
+      border: 1px solid #006B6A;
+      border-radius: 8px;
+      background-color: #f8f9fa;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+
+    .star-rating i {
+      color: #FFD700;
+    }
+
+    .testimonial-paragraph {
+      font-style: italic;
+      color: #555;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    .testimonial-footer {
+      display: flex;
+      align-items: center;
+      margin-top: 15px;
+    }
+
+    .testimonial-footer img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+     .star-rating i {
+      color:#006B6A;
+     }
+    006B6A
+
+    .testimonial-footer .name {
+      font-weight: bold;
+    }
+
+
+    /* Contact Area */
+
+    .contact-form-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .contact-form-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .submit-btn {
+      background-color: #5e3bee;
+      padding: 4px 16px;
+    }
